@@ -124,16 +124,7 @@ def get_technology_versions(url):
     else:
         return None
 
-
-def print_intro():
-    print('"""""""""""""""""""""""""""""""MRPYTHON0"""""""""""""""""""""""""""""""""')
-    print()
-    print()
-    print('#########################################################################')
-
-
 def main():
-    print_intro()
 
     while True:
         url = input('Lütfen kontrol etmek istediğiniz URL\'yi girin: ')
